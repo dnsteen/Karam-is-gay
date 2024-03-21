@@ -14,13 +14,19 @@
     </form>
 
     <?php
+    //Hello!
+    /*
     echo "Hi there ";
     print "Michael Soft" ;
+    */
 ?>
 <br>
     <?php
+    // This is a sentence.
+    /* 
     $name = $_GET['person'];
     echo $name." is a cool!";
+    */
 ?>
 </body>
 </html>
