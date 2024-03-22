@@ -9,7 +9,7 @@
 
     <h1>MICHAEL SOFT</h1>
 
-    <form method="GET"
+    <form method="GET">
         <input type="text" name="person">
         <button>SUBMIT</button>
     </form>
