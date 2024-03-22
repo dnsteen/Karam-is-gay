@@ -13,7 +13,7 @@
         <input type="text" name="person">
         <button>SUBMIT</button>
     </form>
- 
+
     <?php
     //Hello!
     /*
