@@ -6,13 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+
     <h1>MICHAEL SOFT</h1>
 
-    <form method="GET">
+    <form method="GET"
         <input type="text" name="person">
         <button>SUBMIT</button>
     </form>
-
+ 
     <?php
     //Hello!
     /*
@@ -28,5 +29,6 @@
     echo $name." is a cool!";
     */
 ?>
+
 </body>
 </html>
