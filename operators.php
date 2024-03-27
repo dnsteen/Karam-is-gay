@@ -53,12 +53,21 @@
 
     //Logical Operators #12
     $x = 20;
-    $y = 20;
+    $y = 60;
 
     if ($x == $y xor 1 == 1) {
         echo "True";
     }
 
 ?>
+<hr>
+
+<a href="index.php">Home</a>
+<a href="datatypes.php">Datatypes</a>
+<a href="functions.php">Functions</a>
+<a href="operators.php">Operators</a>
+<a href="calculator.php">Calculator</a>
+<a href="calender.php">Calender</a>
+
 </body>
 </html>
