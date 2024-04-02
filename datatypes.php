@@ -34,7 +34,9 @@
 <a href="functions.php">Functions ---</a>
 <a href="operators.php">Operators ---</a>
 <a href="calculator.php">Calculator ---</a>
-<a href="calender.php">Calender</a>
+<a href="calender.php">Calender ---</a>
+<a href="conditionals.php">Conditionals ---</a>
+<a href="loops.php">Loops</a>
 
 </body>
 </html>

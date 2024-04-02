@@ -6,28 +6,45 @@
     <title>Document</title>
 </head>
 <body>
-
-    <h1>MICHAEL SOFT</h1>
-
-    <form method="GET">
-        <input type="text" name="person">
-        <button>SUBMIT</button>
-    </form>
-
     <?php
-    //Hello!
-    /*
-    echo "Hi there ";
-    print "Michael Soft" ;
-    */
+    //Loop
+
+    //While loop
+    $x = 1;
+    while ($x <= 5) {
+        echo "hi there<br>";
+        $x++;
+    }
+
 ?>
-<br>
+<hr>
     <?php
-    // This is a sentence.
-    /* 
-    $name = $_GET['person'];
-    echo $name." is a cool!";
-    */
+    //Do while loop
+    $x = 1;
+    do {
+        echo "hi there<br>";
+        $x++;
+    }
+    while ($x <= 5)
+
+?>
+<hr>
+    <?php
+    //For loop
+    for ($x = 0; $x <= 10; $x++) {
+        echo "hi<br>";
+    }
+
+?>
+<hr>
+    <?php
+    //Foreach loop
+    $array = array("David", "Karam", "Chad");
+
+    foreach ($array as $loopdata) {
+        echo "My name is ".$loopdata."<br>";
+    }
+
 ?>
 <br>
 <hr>
