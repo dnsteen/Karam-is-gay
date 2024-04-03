@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php
 
+include 'includes/header.php'
+
+?>
     <form>
         <input type="text" name="num1" placeholder="Number 1">
         <input type="text" name="num2" placeholder="Number 2">
@@ -21,6 +17,7 @@
         <button name="submit" value="submit" type="submit">Calculate</button>
     </form>
 <p>The answer is:</p>
+<p>
     <?php
     if (isset($_GET['submit'])) {
         $result1 = $_GET['num1'];
@@ -45,17 +42,8 @@
         }
     }
 ?>
-<br>
-<hr>
-<br>
-<a href="index.php">Home ---</a>
-<a href="datatypes.php">Datatypes ---</a>
-<a href="functions.php">Functions ---</a>
-<a href="operators.php">Operators ---</a>
-<a href="calculator.php">Calculator ---</a>
-<a href="calender.php">Calender ---</a>
-<a href="conditionals.php">Conditionals ---</a>
-<a href="loops.php">Loops</a>
+</p>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

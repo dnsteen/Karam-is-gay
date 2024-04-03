@@ -1,27 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php
+
+include 'includes/header.php'
+
+?>
     <?php
 
     echo str_replace("Michael","Karam","Hi Michael");
 
 ?>
-<br>
-<hr>
-<br>
-<a href="index.php">Home ---</a>
-<a href="datatypes.php">Datatypes ---</a>
-<a href="functions.php">Functions ---</a>
-<a href="operators.php">Operators ---</a>
-<a href="calculator.php">Calculator ---</a>
-<a href="calender.php">Calender ---</a>
-<a href="conditionals.php">Conditionals ---</a>
-<a href="loops.php">Loops</a>
 
+<hr>
+
+    <?php
+    //Calc Function
+    function newCalc($x) {
+        $newnr = $x * 0.75;
+        echo "Here is 75% of what you wrote: ".$newnr;
+    }
+
+    $x = 100;
+    newCalc($x);
+
+    echo "<br>";
+
+    $a = 10;
+    newCalc($a);
+
+?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
