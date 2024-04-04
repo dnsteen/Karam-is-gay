@@ -1,3 +1,10 @@
+p {
+    text-align: center;
+    font-size: 120px;
+    font-family: Arial;
+    margin-top: 38vh;
+}
+
 .container-fluid {
     background-color: #8deeee;
 }
