@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <nav class="navbar navbar-custom navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand  text-dark" href="index.php">Navbar</a>
@@ -21,6 +28,18 @@
             <li><a class="dropdown-item" href="loops.php">Loops</a></li>
           </ul>
         </li>
+        <?php
+
+          $_SESSION['username'] = "david875";
+          echo $_SESSION['username'];
+
+          if (isset($_SESSION['username'])) {
+            echo "You are logged in!";
+          } else {
+            echo "You are not logged in!";
+          }
+
+    ?>
       </ul>
     </div>
   </div>
