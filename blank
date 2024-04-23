@@ -1,0 +1,11 @@
+create table posts (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    subject varchar(128) not null,
+    content varchar(1000) not null,
+    date datetime not null
+);
+
+
+INSERT INTO users (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('Chad', 'Joyner', 'chadpoops@gmail.com', 'chadJ27', '12345');
+
+INSERT INTO users (user_first, user_last, user_email, user_uid, user_pwd) VALUES ('Karam', 'Razeq', 'rampoops@gmail.com', 'Bomb3r80Y16', '123456');
