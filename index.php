@@ -1,6 +1,3 @@
-<?php
-    include_once 'includes/dbh.inc.php';
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +15,18 @@
 ?>
 
     <main>
-        <p>You are logged out!</p>
-        <p>You are Logged in!</p>
+        <div class="wrapper-main">
+            <section calss="section-default">
+                <?php
+                if (isset($_SESSION['userId'])) {
+                    echo '<p class="login-satus">You are logged in!</p>';
+                }
+                else {
+                    echo '<p class="login-satus">You are logged out!</p>';
+                }
+                ?>
+            </section>
+        </div>
     </main>
     <h1>MICHAEL SOFT</h1>
 
