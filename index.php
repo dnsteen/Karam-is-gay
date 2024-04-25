@@ -19,10 +19,10 @@
             <section calss="section-default">
                 <?php
                 if (isset($_SESSION['userId'])) {
-                    echo '<p class="login-satus">You are logged in!</p>';
+                    echo '<h6 class="login-satus">You are logged in!</h6>';
                 }
                 else {
-                    echo '<p class="login-satus">You are logged out!</p>';
+                    echo '<h6 class="login-satus">You are logged out!</h6>';
                 }
                 ?>
             </section>
