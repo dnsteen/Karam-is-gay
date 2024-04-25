@@ -28,18 +28,15 @@ session_start();
             <li><a class="dropdown-item" href="loops.php">Loops</a></li>
           </ul>
         </li>
-        <?php
-
-          $_SESSION['username'] = "david875";
-          echo $_SESSION['username'];
-
-          if (isset($_SESSION['username'])) {
-            echo "You are logged in!";
-          } else {
-            echo "You are not logged in!";
-          }
-
-    ?>
+        <form action="includes/login.inc.php" method="post">
+        <input type="text" name="mailuid" placeholder="Usernam/E-mail...">
+        <input type="text" name="pwd" placeholder="Password...">
+        <button type="submit" name="login-submit">Login</button>
+      </form>
+      <a href="signup.php">Signup</a>
+      <form action="includes/login.inc.php" method="post">
+        <button type="submit" name="logout-submit">Logout</button>
+      </form>
       </ul>
     </div>
   </div>
