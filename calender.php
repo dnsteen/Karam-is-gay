@@ -20,10 +20,10 @@ include 'includes/header.php'
             <section class="section-default">
                 <?php
                 if (isset($_SESSION['userId'])) {
-                    echo '<h6 class="login-satus">You are logged in!</h6>';
+                    echo '<h6 class="login-status">You are logged in!</h6>';
                 }
                 else {
-                    echo '<h6 class="login-satus">You are logged out!</h6>';
+                    echo '<h6 class="login-status">You are logged out!</h6>';
                 }
                 ?>
             </section>
