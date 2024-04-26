@@ -16,7 +16,7 @@
 
     <main>
         <div class="wrapper-main">
-            <section calss="section-default">
+            <section class="section-default">
                 <?php
                 if (isset($_SESSION['userId'])) {
                     echo '<h6 class="login-satus">You are logged in!</h6>';
